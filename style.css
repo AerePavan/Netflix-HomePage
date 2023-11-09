@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color:red ;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 200px;
+  
+    cursor: pointer
+
+}
+.button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.trending-card{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    height: 300px;
+    width: 200px;
+}
